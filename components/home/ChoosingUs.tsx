@@ -16,7 +16,7 @@ const ChoosingUs: React.FC = () => {
         "The advantage of hiring a workspace with us is that givees you comfortable service and all-around facilities.",
     },
     {
-      id: 1,
+      id: 3,
       title: "Affordable Price",
       discription:
         "You can get a workspace of the highst quality at an affordable price and still enjoy the facilities that are oly here.",
