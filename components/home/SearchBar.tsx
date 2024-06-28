@@ -3,7 +3,7 @@ import SearchIcon from "@mui/icons-material/Search";
 
 const SearchBar = () => {
   return (
-    <div className="flex justify-end w-[45%] items-center relative rounded-3xl h-10 bg-[#464849] border border-[#ffffffcc] overflow-hidden">
+    <div className="flex justify-end lg:w-[230px] w-[110px] md:w-[160px] mt-2  h-10 items-center relative rounded-3xl  bg-[#464849] border border-[#ffffffcc] overflow-hidden">
       <input
         spellCheck={false}
         type="text"

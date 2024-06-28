@@ -30,14 +30,14 @@ const ChoosingUs: React.FC = () => {
   ];
 
   return (
-      <div className="flex justify-around items-center py-5 w-full h-auto ">
-        <div className="flex justify-center items-center flex-1 h-52 font-medium text-[1.3rem] font-lexend">
+      <div className="flex justify-around items-center py-5 w-full h-auto flex-wrap px-4">
+        <div className="flex text-center sm:text-left min-w-[300px]  justify-center items-center flex-1 h-40 sm:h-52 font-medium text-[1.3rem] font-lexend">
           Why <br /> Choosing Us
         </div>
         {datas.map((data) => (
           <div
             key={data.id}
-            className="flex flex-col justify-around flex-1 h-52 p-4"
+            className="flex min-w-[300px] flex-col justify-around flex-1 h-52 p-4"
           >
             <h3 className="font-medium font-lexend text-[1.1rem]">
               {data.title}
